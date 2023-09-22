@@ -26,7 +26,7 @@ export default {
     loginUser: async ( req, res ) => {
       const { username, password } = req.body;
 
-      const user = await User.findOne({ username }).select("+password");
+      const user = await User.findOne({ username });
       // checking that user has given the credentials or not
       if (!username || !password) {
         return RequestHandler.Error({
