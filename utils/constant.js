@@ -9,7 +9,7 @@ const constant = {
   USER_IS_AUTHENTICATED: `User Is Authenticated.`,
   USER_LOGGED_IN: `Logged in successfully.`,
   USER_DELETED_SUCCESSFULLY: `User deleted successfullly.`,
-  LOGIN_FIRST: `Please login to upload a post!`,
+  LOGIN_FIRST: `Please login to access this resource!`,
   NO_POST_FOUND: `Post not available.`,
   YOUR_POST: `Here is your post.`,
   POST_DELETED: `post deleted successfully.`,
